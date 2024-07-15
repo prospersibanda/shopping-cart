@@ -103,6 +103,7 @@ body.showCart .container{
     font-family: Poppins;
     font-weight: 500;
     cursor: pointer;
+    padding: 20px 20px;
 }
 .cartTab .close{
     background-color: #eee;
@@ -153,3 +154,19 @@ body.showCart .container{
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+.total {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-right: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  
+  .total span {
+    color: white;
+    opacity: 1;
+  }

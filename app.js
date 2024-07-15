@@ -65,6 +65,7 @@ const addCartToMemory = () => {
 const addCartToHTML = () => {
     listCartHTML.innerHTML = '';
     let totalQuantity = 0;
+    let totalCost = 0; // new variable to store the total cost
     if(cart.length > 0){
         cart.forEach(item => {
             totalQuantity = totalQuantity +  item.quantity;
@@ -89,9 +90,12 @@ const addCartToHTML = () => {
                     <span class="plus">></span>
                 </div>
             `;
+            totalCost += info.price * item.quantity; // calculate the total cost
         })
     }
     iconCartSpan.innerText = totalQuantity;
+    let totalHTML = document.querySelector('.total'); // get the total HTML element
+    totalHTML.innerHTML = `Total: <span>$${totalCost.toFixed(2)}</span>`; // update the total price
 }
 
 listCartHTML.addEventListener('click', (event) => {
