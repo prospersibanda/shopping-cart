@@ -1,50 +1,50 @@
 [
     {
         "id": 1,
-        "name":" LD01 LOUNGE CHAIR",
-        "price": 200,
+        "name":" Classic Gray Lounge",
+        "price": 1200,
         "image": "image/1.png"
     },
     {
         "id": 2,
-        "name":" LD02 LOUNGE CHAIR",
-        "price": 250,
+        "name":" Modern Blue Wingback",
+        "price": 2100,
         "image": "image/2.png"
     },
     {
         "id": 3,
-        "name":" LD03 LOUNGE CHAIR",
-        "price": 290,
+        "name":" Retro Wooden Backrest",
+        "price": 790,
         "image": "image/3.png"
     },
     {
         "id": 4,
-        "name":" LD04 LOUNGE CHAIR",
-        "price": 200,
+        "name":" Comfy Teal Seat",
+        "price": 1600,
         "image": "image/4.png"
     },
     {
         "id": 5,
-        "name":" LD05 LOUNGE CHAIR",
-        "price": 300,
+        "name":" Vintage Leather Armchair",
+        "price": 3500,
         "image": "image/5.png"
     },
     {
         "id": 6,
-        "name":" LD06 LOUNGE CHAIR",
-        "price": 200,
+        "name":" Minimalist Black Cushion",
+        "price": 1450,
         "image": "image/6.png"
     },
     {
         "id": 7,
-        "name":" LD07 LOUNGE CHAIR",
-        "price": 200,
+        "name":" Sleek Black Wooden",
+        "price": 920,
         "image": "image/7.png"
     },
     {
         "id": 8,
-        "name":" LD08 LOUNGE CHAIR",
-        "price": 200,
+        "name":" Mid-Century Wooden Accent",
+        "price": 998,
         "image": "image/8.png"
     }
 
