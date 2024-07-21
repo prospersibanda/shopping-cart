@@ -42,7 +42,8 @@ header {
 }
 
 .title {
-    font-size: xx-large;
+    display: flex;
+    font-size: 20px;
 }
 
 .listProduct .item img {
@@ -274,4 +275,82 @@ body.showCart .container {
 
 .item .addCart:hover {
     background-color: #555;
+}
+
+/* styles.css */
+
+footer {
+    background-color: #222;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left .logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.footer-left .logo span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-middle {
+    display: flex;
+}
+
+.footer-middle ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 20px;
+}
+
+.footer-middle ul li {
+    margin: 5px 0;
+}
+
+.footer-middle ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-right .payment-methods {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-right .payment-methods li {
+    margin-left: 10px;
+}
+
+.footer-right .payment-methods li img {
+    width: 30px;
+    height: 20px;
+}
+
+.footer-right span {
+    display: block;
+    margin-top: 10px;
 }

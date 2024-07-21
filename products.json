@@ -1,49 +1,49 @@
 [
     {
         "id": 1,
-        "name":" Classic Gray Lounge",
-        "price": 1200,
+        "name":"Short Sleeve Tee",
+        "price": 2520,
         "image": "image/1.png"
     },
     {
         "id": 2,
-        "name":" Modern Blue Wingback",
+        "name":"Women's Boxy Tee",
         "price": 2100,
         "image": "image/2.png"
     },
     {
         "id": 3,
-        "name":" Retro Wooden Backrest",
+        "name":" Crewneck Sweatshirt",
         "price": 790,
         "image": "image/3.png"
     },
     {
         "id": 4,
-        "name":" Comfy Teal Seat",
+        "name":" Distressed Cap",
         "price": 1600,
         "image": "image/4.png"
     },
     {
         "id": 5,
-        "name":" Vintage Leather Armchair",
-        "price": 3500,
+        "name":" Men's Swim Shorts",
+        "price": 849,
         "image": "image/5.png"
     },
     {
         "id": 6,
-        "name":" Minimalist Black Cushion",
+        "name":" Hooded Sweatshirt",
         "price": 1450,
         "image": "image/6.png"
     },
     {
         "id": 7,
-        "name":" Sleek Black Wooden",
+        "name":" Triblend Tee",
         "price": 920,
         "image": "image/7.png"
     },
     {
         "id": 8,
-        "name":" Mid-Century Wooden Accent",
+        "name":" Garment-Dyed T-shirt",
         "price": 998,
         "image": "image/8.png"
     }
